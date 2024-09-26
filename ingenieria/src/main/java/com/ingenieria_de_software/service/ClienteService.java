@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import com.ingenieria_de_software.model.Cliente;
 import com.ingenieria_de_software.model.Reserva;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class ClienteService {
 
     // Lista simulada para almacenar los clientes

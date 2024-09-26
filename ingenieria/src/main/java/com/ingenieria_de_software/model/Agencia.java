@@ -22,10 +22,6 @@ public class Agencia {
         this.listReservas = new ArrayList<>();
     }
 
-    public Agencia(JSONObject jsonObj) {
-        //TODO Auto-generated constructor stub
-    }
-
     // Método para añadir una reserva
     public void añadirReserva(Reserva reserva) {
         listReservas.add(reserva);

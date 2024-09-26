@@ -6,7 +6,10 @@ import com.ingenieria_de_software.model.Coche_X_Reserva;
 import com.ingenieria_de_software.model.Coche;
 import com.ingenieria_de_software.model.Reserva;
 import java.util.Date;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class Coche_X_ReservaService {
 
     // Lista para almacenar las asociaciones coche-reserva

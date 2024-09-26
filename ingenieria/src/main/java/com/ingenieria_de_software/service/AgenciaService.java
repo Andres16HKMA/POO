@@ -3,7 +3,9 @@ package com.ingenieria_de_software.service;
 import java.util.ArrayList;
 import java.util.List;
 import com.ingenieria_de_software.model.Agencia;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AgenciaService {
 
     // Una lista simulada para almacenar las agencias

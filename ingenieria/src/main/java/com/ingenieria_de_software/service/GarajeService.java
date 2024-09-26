@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import com.ingenieria_de_software.model.Coche;
 import com.ingenieria_de_software.model.Garaje;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class GarajeService {
 
     // Lista para almacenar los garajes

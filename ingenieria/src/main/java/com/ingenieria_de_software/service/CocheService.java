@@ -3,7 +3,10 @@ package com.ingenieria_de_software.service;
 import java.util.ArrayList;
 import java.util.List;
 import com.ingenieria_de_software.model.Coche;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class CocheService {
 
     // Lista simulada para almacenar los coches

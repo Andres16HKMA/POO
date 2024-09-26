@@ -7,7 +7,10 @@ import com.ingenieria_de_software.model.Coche_X_Reserva;
 import com.ingenieria_de_software.model.Cliente;
 import com.ingenieria_de_software.model.Agencia;
 import java.time.LocalDateTime;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class ReservaService {
 
     // Lista para almacenar las reservas
